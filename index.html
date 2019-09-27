@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <title>Voyage & Co</title>
+</head>
+<body>
+  <!-- Dans le fichier HTML, créer une balise header dans laquelle se trouve l’image header.jpg et un titre
+  de premier niveau. Reproduire l’image ci-dessous.-->
+  <header>
+    <h1>
+      Voyage & Co
+    </h1>
+    <!-- Créer un texte d’accueil de présentation de l’agence Voyage & Co. Ce texte doit être :
+    • Sous le menu
+    • S’intégrer dans un espace plus petit que la taille de l’écran
+    • Avoir un fond coloré -->
+    <!-- Sur la même ligne afficher 3 blocs. Chaque bloc doit avoir :
+    • 1 photo ;
+    • 1 titre ;
+    • 1 texte descriptif. -->
+    <div id="accueil">
+      <p>Découvrez l'agence de voyage en ligne Voyage&Co et retrouvez toutes les destinations
+        et sélection de bons plans pour vos vacances.
+      </p>
+    </div>
+  </header>
+  <!-- Réaliser la barre de navigation du site Voyage & Co. Elle doit comporter
+  • 4 onglets :
+  o Accueil
+  o Destinations
+  o Réservations
+  o Contact
+  • Un champ de recherche et un bouton « Rechercher ». -->
+  <ul id="navbar">
+    <li><a href="#Accueil">Accueil</a></li>
+    <li><a href="#Destinations">Destinations</a></li>
+    <li><a href="#Réservations">Réservations</a></li>
+    <li><a href="#Contact">Contact</a></li>
+    <li>
+      <form action="index.html" method="post">
+        <input type="text" name="search" placeholder="Entrer votre recherche">
+        <button type="submit" name="search">Rechercher</button>
+      </form>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="block">
+      <div>
+        <h2>Les Caraibes</h2>
+        <img src="assets/img/caraibes.jpeg" alt="caraibes">
+        <p>Partez pour les Caraibes dès maintenant !</p>
+      </div>
+    </div>
+    <div class="block">
+      <div>
+        <h2>L'Egypte</h2>
+        <img src="assets/img/egypte.jpg" alt="egypte">
+        <p>Partez pour l'Egype dès maintenant !</p>
+      </div>
+    </div>
+    <div class="block">
+      <div>
+        <h2>Les Maldives</h2>
+        <img src="assets/img/maldives.jpeg" alt="maldives">
+        <p>Partez pour les Maldives dès maintenant !</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
